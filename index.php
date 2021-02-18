@@ -24,6 +24,7 @@
 
 		$sql = "SELECT id, nama, kantor FROM Users";
 		$result = $conn->query($sql);
+		
 		$users = $result->num_rows;
 		
 		echo "Jumlah User: ".$users."<br>";
